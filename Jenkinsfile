@@ -1,6 +1,11 @@
 def tools{
 maven 'maven3.6.3'
-pipeline{
+pipeline
+{
+
+stage{
+nexus:7.8
+always:restart
 
 agent any
 
