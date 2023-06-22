@@ -1,3 +1,5 @@
+def tools{
+maven 'maven3.6.3'
 pipeline{
 
 agent any
